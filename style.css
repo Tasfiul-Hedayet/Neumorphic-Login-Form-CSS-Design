@@ -1,0 +1,104 @@
+.main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ecf0f3;
+}
+
+.form {
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1,
+        -10px -10px 15px white
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: .3px;
+}
+
+.field {
+    width: 100%;
+    padding: 45px 5px 5px 5px;
+}
+
+.field input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password {
+    margin-right: 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px #cbced1,
+        inset -8px -8px 15px white
+}
+
+.field svg {
+    height: 20px;
+    margin: 0 8px -3px 25px;
+}
+
+.signup-button {
+    margin-left: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background: #63e06b;
+    box-shadow: 3px 3px 8px #cbc3d1 -3px -3px 3px white;
+    transition: .5% linear;
+}
+
+.signup-button .Stext{
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.signup-button:hover {
+    background-color: #367d3a;
+
+}
+
+.signup-button:active{
+    background-color: yellowgreen;
+}
+
+.link{
+    padding-top: 15px;
+    text-align: center;
+}
+.link {
+    color: #aaa;
+    font-family: sans-serif;
+
+}
+
+.link a{
+    text-decoration: none;
+}
